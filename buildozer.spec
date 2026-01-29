@@ -1,10 +1,4 @@
-title = Quiz Game
-package.name = quizgame
-package.domain = org.raunak
-
-source.include_exts = py
-
-requirements = python3,kivy
-
-orientation = portrait
-fullscreen = 1
+- name: Build with Buildozer
+  uses: digreatbrian/buildozer-action@v2
+  with:
+    buildozer-cmd: buildozer android debug
